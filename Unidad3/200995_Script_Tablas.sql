@@ -4,7 +4,6 @@
 -- Programa Educativo: Ingeniería de Desarrollo y Gestión de Software 
 -- Fecha elaboración:  24 de Julio de 2024
 
--- Archivo: tablas.sql
 
 CREATE TABLE tbd_puestos_departamentos (
     PuestoID int UNSIGNED AUTO_INCREMENT PRIMARY KEY,
