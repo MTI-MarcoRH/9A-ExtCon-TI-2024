@@ -20,4 +20,4 @@ CREATE TABLE `tbb_aprobaciones` (
   KEY `fk_aprobaciones_solicitud_idx` (`Solicitud_ID`),
   CONSTRAINT `fk_aprobaciones_personal_medico` FOREIGN KEY (`Personal_Medico_ID`) REFERENCES `tbb_personal_medico` (`Persona_ID`),
   CONSTRAINT `fk_aprobaciones_solicitud` FOREIGN KEY (`Solicitud_ID`) REFERENCES `tbd_solicitudes` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
